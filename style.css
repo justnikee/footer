@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-footer-container{
+    background: #001625;
+}
+
+.footer-wrapper{
+    display: flex;
+    padding: 50px;
+}
+
+.logo-text-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+.logo-text-container img{
+    width: 250px;
+  
+}
+
+.store-slogan{
+    color: #fff;
+    font-weight: 400;
+}
+.more-text{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+.all-links-container{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.small-heading-one{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+ .links li>a{
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    text-transform: capitalize;
+    letter-spacing: .5px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.links li a:hover{
+    border-bottom: 1px solid #F89728;
+}
+
+.links li {
+    list-style: none;
+    padding: 0 0 10px;
+}
+
+.links li{
+    list-style: none;
+}
+
+.same-links{
+    padding: 50px 0;
+}
+
+
